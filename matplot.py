@@ -1,8 +1,9 @@
 import matplotlib.pyplot as plt
 
+input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 #設定線條粗細（linewidth）
-plt.plot(squares, linewidth=5)
+plt.plot(input_values, squares, linewidth=5)
 #設置圖表標題，x,y軸的的標籤
 plt.title("Square Number", fontsize=24)
 plt.xlabel("Value", fontsize=14)
